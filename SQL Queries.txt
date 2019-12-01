@@ -1,0 +1,96 @@
+Primary Key :
+Unique data/content for example : account number 
+
+=============insert============================
+insert into candice values(1100,'Virat Kohli','Bulandsahar',12000)
+
+===============search=======================
+select*from candice where id = 1100;
+select*from candice where salary<10000 and salary >6000;
+
+=========================Delete==================
+delete fro candice where id = 1103;
+### delete table:        delete from candice;
+### truncat table candice; # saves schema
+
+no where condition with truncat while with delete it can be  used.
+
+drop table candice;  [deletes both table and schemas]
+
+=========================change or modify table===================
+
+alter table candice add column Gender varchar(10);
+update candice set Gender = 'Male' where id =1100;
+alter table candice add column age int after name { will add this age column after name column}
+
+=========================for dropping particular column==============
+alter table candice drop column Gender;
+======================order by==============================
+select*from candice order by id;  [Ascending order]
+select*from candice order by id desc;[descending order]
+
+======================================Like between or in==============================
+select * from candice where name like 'v%'
+select * from candice where name like '_i%'[gives names with second letter i]
+select * from candice where name like '%t'[gives name ending with letter t]
+select*from candice where salary between 5000 and 20000;
+select * from candice where salary in (5000,2000,15000,160000)
+
+==================================JOINS=================================
+DDL – Data Definition Language
+DQL– Data Query Language
+DML – Data Manipulation Language
+DCL – Data Control Language
+
+########
+
+DDL(Data Definition Language) : DDL or Data Definition Language actually consists of the SQL commands that can be used to define the database schema. It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in the database.
+Examples of DDL commands:
+
+CREATE – is used to create the database or its objects (like table, index, function, views, store procedure and triggers).
+DROP – is used to delete objects from the database.
+ALTER-is used to alter the structure of the database.
+TRUNCATE–is used to remove all records from a table, including all spaces allocated for the records are removed.
+COMMENT –is used to add comments to the data dictionary.
+RENAME –is used to rename an object existing in the database.
+
+#######
+
+DML statements are used for performing queries on the data within schema objects. The purpose of DQL Command is to get some schema relation based on the query passed to it.
+
+Example of DQL:
+
+SELECT – is used to retrieve data from the a database.
+###########
+select * from candice c1 right join scorpion s2 on c1.id=s2.StdID;
+select * from candice c1 inner join scorpion s2 on c1.id=s2.StdID;[shows only common elements]
+
+natural joins : show data that have all fields same totally.
+
+
+virtual table:
+crete view one as select id,name,salary from candice where id =140.
+drop view one. [delete view one]
+
+
+Name    Salary
+Jim       6
+Foo       5
+Bar       5
+Steve     4
+
+SELECT name, salary
+FROM employees
+WHERE salary = (SELECT MAX(salary) FROM employees WHERE salary < (SELECT MAX(salary) FROM employees))
+
+Result --> Bar 5, Foo 5
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+for dot martix = print(np.dot(a,b))
+for inversing a matrix : t=np.linalg.inv(a)
+for determinant :t=np.linalg.det(a)
+for random array=np.random.randint
+
+*** List are not added b/c it contain object type element whereas array....!!..... integers type data  ***
+##Kaggle##
+loc=location(reads string)
+iloc=integer location(reads integer value)
+=========================================Projects============================================================================
+Heart attack prediction
+Chatbot (using NLTK)
+Spam mail rejection
+Face detection
+Smart Attendance
+translator
+
+=========================================================Pandas=============================================================
+Pandas: is a module of Data science & useful to represent your data effectively/Stylish. Pandas are useful to manipulate your data in easy and understandable way.
+3 types:ssss
+> DataFrame (2-D)
+> Series (1-D)
+> Panel(3-D)
+
+#notepad data
+f=open("Path.txt","r")
+s=f.read()
+s
+
+===========Joins in pandas=============================
+** in case no. of columns are not equal in two tables then for join we use two columns for join.
+
+==========================================================LIST COMPREHENSION===============================
+l=[1,2,3,4,,5,6,'a','v','g',56,78,21]
+l2=['a','v','g']
+
+print([i for i in l if i in l2])   ##elements of i existing in l2.
+
+https://kickass.sx
+
+=====================================================NLP=======================================================================
+NLTK is module/library to implement NLP(Natural Language Processing)
+
+===============================================Set Python===============================
+**** remove and discard in set :
+remove gives error if element is not present in set whereas discard doesn't .
+and if element exists it deletes it.******
+================================================Set======================================
+encoding = 'utf-8'  //UTF = Unicode Transformation Format separates 0's and 1's.
+===================================================opencv================================
+opencv uses:
+>> Image Processing
+>> Camera
+
+
+
+

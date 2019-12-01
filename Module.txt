@@ -1,0 +1,18 @@
+All Important Modules:
+pip install pymysql
+pip install pillow            (image import)
+pip install pandas
+pip install numpy
+pip install opencv-python
+pip install opencv-contrib-python   // face train in pycharm we need to install this
+===================NLTK=================
+import NLTK
+nltk.download()
+=========================================
+pip install opencv-python                [open-cv module]
+pip install googletrans                     [Language translator ]
+pip install pyttsx3                              [text to speech ]
+pip install pytesseract                      [ ]
+pip install gTTS /gtts
+pip install SpeechRecognition
+pip install pyaudio

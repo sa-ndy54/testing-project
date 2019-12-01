@@ -1,0 +1,65 @@
+Linear regression  is used for prediction.
+
+Equation : y= mx+c
+
+m = slope
+x = independent variable
+y = dependent variable
+c = constant
+
+==============================================================MACHINE LEARNING===================================================================
+
+Feature and target : Target to be decided on behalf of features.
+
+x = Feature and y = Target
+
+x1 = Test/Train = 30%
+x2 = Train/Test = 70%
+
+y1 = Test/Train = 30%
+y2 = Train/Test = 70%
+
+Machine Learning types:
+1 - Supervised ML - Trained data and then test'ng/guru available for a kid
+Linear Regression
+Logistics Regression
+Polynomial Regression
+Confusion Matrix
+KNN(Klustering Nearest Neighbour)/(uses K-mean algorithm)
+Decision Tree
+Random Forest tree(Group of Decision Trees)
+SVM(Support Vector Machine) [Accuracy more than KNN]
+One Hot Encoding
+Naive Bayes Classifier
+
+2 - Unsupervised ML - Untrained Data(no input but have output)
+                                         Just by seeing  features and then analyse.( Experience Based self learning)
+>K-mean Algorithm
+      used for clustering(grouping)
+>Multi Regression
+
+3- Reinforcement ML:  # (used in AI) #
+-- Data is trained with respect to time but eliminates/removes risks in future for further using unsupervised ML.  (Hit and trial)
+
+===================================================================================================================================================
+
+Confusion Matrices: shows percentage of data which is correct.
+2 x 2 Matrices(i.e depends on prediction numbers)
+
+One Hot Encoding
+- It is a representaion of categorical variables as binary vectors.
+
+-This first requires that the categorical values be mapped to integer values.
+
+-Then,each integer value is represented as a  binary vector that is all zero values except the index of the integer,which is marked with a 1.
+==========================================================================
+Map: applies a function on any column or index.
+Apply:applies a function like 'Sum' in a column or row( normally it only applies in column only)
+Applymap:applies 'sum' on all the elements of dataframe
+axis = 0 (column) and axis = 1(row)
+=============================================================================================
+
+
+
+
+

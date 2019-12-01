@@ -1,0 +1,5 @@
+x=eval(input("enter first number"))
+y=eval(input("enter second number"))
+print(x is not y)
+print(id(x))
+print(id(y))
